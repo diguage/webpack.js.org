@@ -16,6 +16,14 @@ The next section tells you how to install webpack locally in a project.
 ### Local Installation
 
 ``` bash
+yarn add webpack --dev
+
+yarn add webpack@<version>  --dev
+```
+
+..or if you insist on using npm instead of the more advanced [Yarn](https://yarnpkg.com):
+
+``` bash
 npm install webpack --save-dev
 
 npm install webpack@<version> --save-dev
